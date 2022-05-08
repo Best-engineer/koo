@@ -12,7 +12,7 @@ https://www.google.com/ 접속 시 웹 통신 흐름 파악하기
 
 컴퓨터가 데이터를 어떻게 주고 받는지 구조화한 것.
 
-![OSI](/Images/OSI.png)
+![OSI](Images/OSI.png)
 
 - Layer 7: Application  
   애플리케이션 레이어는 유저와 직접적으로 상호작용하는 계층이다. 즉 우리가 사용하는 브라우저(크롬, 사파리, 파이어폭스)다.
@@ -24,7 +24,7 @@ https://www.google.com/ 접속 시 웹 통신 흐름 파악하기
   -> 인간들의 언어(HTML, XML, ASCII, GIF, JPG, MPG, MOV, WMV, SSL, TLS)를 -> 컴퓨터 언어(2진수)로 변환해주거나 그 역방향도 마찬가지다.
   -> SSL를 사용해서 암호화(Encryption)도 한다.
   -> 그림을 이진수로 표현하는 방법
-  ![picturePexel](/Images/picturePexel.png)
+  ![picturePexel](Images/picturePexel.png)
 - Layer 5: Session  
   호스트간 통신을 연결해준다.
   -> 두 컴퓨터간 세션을 establish하고 manage하고, terminate한다.
@@ -36,7 +36,7 @@ https://www.google.com/ 접속 시 웹 통신 흐름 파악하기
   - TCP 프로토콜
     TCP가 원래는 IP네트워크를 통해서 End to End로 데이터를 전송하는 용어로 단독으로 쓰였다.
     -> 그 이후에 TCP/IP 가 함께 쓰이기 시작 해서 OSI 모델과 같은 전체 네트워크 모델을 나타내는 용어로 쓰이고 있다.
-    ![TcpIpModel](/Images/TcpIpModel.png)
+    ![TcpIpModel](Images/TcpIpModel.png)
     1. Connetion-oriented(연결지향적): 상호간에 통신을 하기 위해서 3 way handshaking을 한다.
     2. Reliable(신뢰할수 있는): 데이터의 올바른 순서와 무결성(Integrity)을 보장한다. 순서가 맞지 않거나 데이터가 중간에 손실되면 서버는 재요청 한다.
   - UDP 프로토콜  

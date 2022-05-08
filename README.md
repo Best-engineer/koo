@@ -1,2 +1,3 @@
-# koo
-study
+# Study Computer Science
+
+Check the directory
