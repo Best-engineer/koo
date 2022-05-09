@@ -57,7 +57,7 @@ https://www.google.com/ 접속 시 웹 통신 흐름 파악하기
 - Layer 2: Data Link  
   물리적 주소를 지정한다.  
   -> 데이터가 비트 프레임으로 디코딩된다.-> Physical layer의 에러를 관리 및 처리한다. -> 2개의 서브 층이 더 있다. -> Medium Access Control (MAC) layer과 Logical Link Control (LLC) layer 계층이다.
-  1. MAC: 컴퓨터 하드웨가 데이터에 접근하고 데이터를 보내는 것을 컨트롤한다. -> MAX 주소는 네트워크 세그먼트 안에서 통신하는 장치의 고유한 식별자다. -> Wi-Fi, Bluetooth, Ethernet 같은 기술을 위한 네트워크 주소로 사용된다.(3A-34–52-C4–69-B8처럼 생김)
+  1. MAC: 컴퓨터 하드웨가 데이터에 접근하고 데이터를 보내는 것을 컨트롤한다. -> MAC 주소는 네트워크 세그먼트 안에서 통신하는 장치의 고유한 식별자다. -> Wi-Fi, Bluetooth, Ethernet 같은 기술을 위한 네트워크 주소로 사용된다.(3A-34–52-C4–69-B8처럼 생김)
   2. LLC: MAC서브레이어와 Network 레이어 사이에 인터페이스로 활동한다.-> 프레임 동기화, 흐름제어, 에러 체킹을 컨트롤한다.
   3. Network Switch: 스위치는 컴퓨터 네트워크 장치다. -> 하드에워 주소(MAC주소)를 사용하여 데이터를 처리하고 전달한다. -> port to port와 버퍼링 서비스를 지원한다.
 - Layer 1: Physical
